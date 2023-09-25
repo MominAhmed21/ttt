@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TOL</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<style>
+    
+nav{background: #13142c;}
+
+nav ul li{display: inline-block;
+list-style: none;
+margin: 20px 30px;
+color: white;
+text-decoration: none;
+text-align: center;
+font-size: 20px;}
+
+nav ul li a{text-decoration: none;
+color: silver;
+line-height: 60px;}
+
+header{background: #0b1740;
+widows: 100%}
+
+.nav1{background: #0b1740;}
+
+.nav1 p{color: grey;
+padding-left:30px;}
+
+.nav1 h1{color: white;
+font-size: 50px;
+padding-left:30px;
+font-weight: 700;}
+
+.nav1 p1{color: grey;
+font-size: 25px;
+padding-left:30px;}
+
+.nav1 p2{color: grey;
+padding-left: 30px;
+font-size: 25px;
+padding-left:30px;}
+
+.nav1 a{margin-top: 30px;
+ margin-left: 30px;
+background: #13142c;
+padding:10px 30px;
+border: solid white 1px}
+
+.nav1 a:hover{background: #13142c;
+border: solid white 1px;
+color: silver;}
+
+.nav1 img{padding-top: 30px;
+width: 100px;
+margin-left: -110px;}
+
+
+.img1 img{height:120px;
+width: 110px;
+margin-top: -60px;}
+
+.nav2 img{height: 500px;
+width: 500px;
+margin-left: -110px;
+margin-top: -120px;}
+
+.nav2{height: 350px;
+width: 350px;
+margin-left: 120px;
+margin-top: 100px;
+background: #3064ff;
+border-radius: 80%;}
+
+footer{background:  #101648;
+width: 100%;}
+
+.nav4 h2{color: white;
+font-size: 50px;
+text-align: center;
+padding: 80px;}
+
+.nav6{height: 350px;
+margin: auto;
+position: relative;
+width: 100%;
+display: grid;
+place-items: center;
+overflow: hidden;
+background: #11164e;}
+
+.nav7{display: flex;
+width: calc(250px *17);
+animation: scroll 55s linear infinite;}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{transform: translateX(calc(-250px * 6));}
+}
+
+.nav5{height: 150px;
+width: 150px;
+display: flex;
+align-items: center;
+padding: 15px;
+perspective: 100px;
+background:  #101648;}
+
+.nav7:hover{animation-play-state: paused;}
+
+.nav5 img{width: 100%;
+transition: transform 1s;}
+
+img:hover{transform: translateZ(10px);}
+
+.nav8 h2{color: white;
+font-size: 50px;
+text-align: center;
+padding: 80px;}
+
+
+
+.nav101{background: #13142c;}
+
+.nav101{color: white;
+font-size: 15px;
+line-height: 50px;
+padding-left: 100px;}
+
+.nav12{background: #13142c;}
+
+.nav12 h2{color: #bcb631;
+text-align: center;
+font-size: 30px;
+line-height: 20px;
+padding: 30px;}
+
+.nav14{background: #101648;}
+
+.nav14 h2{color: white;
+font-size: 50px;
+text-align: center;
+padding: 80px;}
+
+.nav15{background: #101648;}
+
+.nav16 img{margin-left: 50px;
+margin-top: 0px;
+height: 350px;
+width: 300px;
+margin-left: 20px;}
+
+.nav16 p{margin-left: 20px;
+color: white;
+padding-top: 50px;
+text-align: center;
+font-size: 15px;}
+
+.nav016 img{margin-left: 50px;
+margin-top: 50px;}
+
+.nav016 p{margin-left: 0px;
+color: white;
+padding-top: 50px;
+text-align: center;
+font-size: 15px;}
+
+.nav17 img{margin-left: 50px;
+height: 800px;
+margin-left: -20px;}
+
+.nav18 h2{color: white;
+font-size: 50px;
+text-align: center;
+padding-top: 40px;
+padding:80px;}
+
+.nav19 input{width: 400px;
+height: 50px;
+margin: 8px;
+border-radius: 15px;
+margin-left: 90px;
+background: #11164e;
+border: solid white 1px;
+color: white;
+padding-left: 20px;}
+
+.nav19 a{padding: 12px 40px;
+margin-top: 30px;
+margin-left: 370px;
+background: #9e4dea;
+border: solid #9e4dea 1px;
+border-radius: 8px;}
+
+.nav19 a:hover{background: #9e4dea;}
+
+.nav19 img{height: 500px;
+width: 500px;
+margin-left: -50px;
+margin-top: -50px;}
+
+.nav20{background: #101648;
+padding-top: 70px;
+border-top: solid white 1px;
+margin-top: 20px;}
+
+.nav21 p{color: white;
+font-size: 15px;
+line-height: 30px;
+padding-left: 50px;
+text-align: center;}
+
+.nav21 img{margin-left: 145px;
+margin-top: -20px;
+height: 80px;
+width: 90px;}
+
+.nav21 h2{color: #34d399;
+text-align: center;
+font-size: 20px;
+padding-left: 30px;}
+
+.nav25 p{color: white;
+padding-left: 100px;}
+
+.nav22 img{height: 130px;
+width: 170px;
+margin-left: 100px;
+margin-top: 5px;} 
+
+
+    
+</style>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg body-tertiary">
+  <div class="container-fluid">
+    <img src="images/logo-2.png">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">My Task</a></li>
+        <li><a href="">My Dashboard</a></li>
+        <li><a href="">Sign In / Sign Up</a></li>
+      </ul>
+ 
+  </div>
+</nav>
+<header>
+ <div class="container">
+        <div class="row">
+            <div class="col-lg-6 nav1">
+              <img src="images/screenshot (46).png"> 
+                <p>The BestWebsite Ever Made</p>
+                <h1>Earn Money<br>Radeem gift<br>cards</h1>
+                <p1>Complete offers, Earn Rewards.</p1>
+                <a href="" class="btn btn-primary">Join Us</a>
+                 <div class="img1">            
+               <img src="images/img010.png.png">
+               </div>
+            </div>
+
+            <div class="col-lg-6 nav2">
+                <img src="images/img2.jpg">
+            </div>
+        </div>
+    </div>
+</header>
+
+<footer>
+  <div class="container">
+        <div class="row">
+            <div class="col-md-12 nav4">
+                <h2>Our Project</h2>
+            </div>
+        </div>
+    </div>
+
+
+ <div class="container">
+  <div class="row nav7">
+    <div class="col-md-1 nav5">
+    <img src="images/img001.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img7.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img6.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img5.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img4.jpg">
+  </div>
+
+    <div class="col-md-1 nav5">
+    <img src="images/img3.jpg">
+  </div>
+   <div class="col-md-1 nav5">
+    <img src="images/img001.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img7.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img6.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img5.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img4.jpg">
+  </div>
+      <div class="col-md-1 nav5">
+    <img src="images/img001.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img7.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img6.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img5.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img4.jpg">
+  </div>
+
+    <div class="col-md-1 nav5">
+    <img src="images/img3.jpg">
+  </div>
+   <div class="col-md-1 nav5">
+    <img src="images/img001.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img7.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img6.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img5.jpg">
+  </div>
+  <div class="col-md-1 nav5">
+    <img src="images/img4.jpg">
+  </div>
+    <div class="col-md-1 nav5">
+    <img src="images/img001.jpg">
+  </div>
+</div>
+</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 nav8">
+                <h2>My Task</h2>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container">
+<div class="row nav013">
+            <div class="col-md-12 nav12">
+                <h2>COMPLETE TOL TASKS</h2>
+            </div>
+          </div>
+        </div>
+
+<div class="container">
+<div class="row nav101">
+   <div class="col-md-2 nav9">
+               <p>Remaining Time<br>2 days 22:38:14<br>2 days 22:38:14<br>2 days 22:38:14<br>2 days 22:38:14<br></p>
+            </div>
+            <div class="col-md-2 nav9">
+                <p>Type<br>ToL Staking<br>Follow<br>Share<br>Like<br></p>
+            </div>
+            <div class="col-md-2 nav9">
+                <p>Project<br>Install & Rate<br>Ticks ‘n Travel<br>CashCare<br>RedChange<br></p>
+            </div>
+            <div class="col-md-2 nav9">
+                <p>Points<br>Earn 0.05<br>Earn 0.05<br>Earn 0.05<br>Earn 0.05</p>
+            </div>
+            <div class="col-md-2 nav9">
+                <p>State<br>View Task<br>View Task<br>View Task<br>View Task<br></p>
+            </div>
+             <div class="col-md-2 nav9">
+                <p>Points<br>Earn 0.05<br>Earn 0.05<br>Earn 0.05<br>Earn 0.05</p>
+            </div>
+     </div>
+ </div>
+</div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12 nav14">
+                <h2>About Us</h2>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container">
+        <div class="row nav15">
+            <div class="col-md-5 nav16">
+               <img src="images/screenshot (42).png">
+               <p>These points serve as the starting point of your journey and are transparently tracked in your individual online wallet. You can either keep them as a reminder of your commitment or use them to improve your experience. Beyond personal gains, our project aims to build a thriving neighborhood where every contact adds to a shared narrative of progress and camaraderie. Join us on this journey where community growth and engagement coexist, making every stop a stepping stone for success for all.These points serve as the starting point of yourjourney and are transparently tracked in your individual online wallet.Beyond personal gains, our project aims to build a thriving neighborhood where every.</p>
+            </div>
+            <div class="col-md-2 nav17">
+               <img src="images/screenshot (43).png">
+            </div>
+            <div class="col-md-5 nav016">
+               <p>These points serve as the starting point of your journey and are transparently tracked in your individual online wallet. You can either keep them as a reminder of your commitment or use them to improve your experience. Beyond personal gains, our project aims to build a thriving neighborhood where every contact adds to a shared narrative of progress and camaraderie. Join us on this journey where community growth and engagement coexist, making every stop a stepping stone for success for all.These points serve as the starting point of yourjourney and are transparently tracked in your individual online wallet.Beyond personal gains, our project aims to build a thriving neighborhood where every.</p>
+               <img src="images/screenshot (40).png">
+            </div>
+        </div>
+
+  <div class="container">
+        <div class="row">
+            <div class="col-md-12 nav18">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+    </div>
+
+     <div class="container">
+        <div class="row nav15">
+            <div class="col-md-6 nav19">
+               <input type="text" 
+               placeholder="Full Name" required><br>
+               <input type="text" 
+               placeholder="Phone Number" required><br>
+               <input type="text" 
+               placeholder="Username@gmail.com" required><br>
+               <input type="text" 
+               placeholder="Topic" required><br>
+               <input type="text" 
+               placeholder="Address" required><br>
+               <input type="text" 
+               placeholder="Start Writing your Message" required><br>
+               <a href="" class="btn btn-primary">Send</a>
+            </div>
+            <div class="col-md-6 nav19">
+               <img src="images/img20.jpg">
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+    <div class="row nav20">
+        <div class="col-md-4 nav25">
+            <p>FAQs<br>Privacy Policy<br>Terms & Conditions<br>What is TOL</p>
+        </div>
+
+        <div class="col-md-4 nav21">
+            <img src="images/screenshot (45).png">
+            <h2>TreeOfLife</h2>
+            <p>Discover the True Power of the Tree of<br>Life - Tolcoin: Promoting Global Financial<br>Development<br>Momin</p>
+        </div>
+
+        <div class="col-md-4 nav22">
+            <a href="">
+            <img src="images/screenshot (44).png">
+           
+            </div>
+        </a>
+        </div>
+    </div>
+</div>
+
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script type="text/javascript">	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js</script>
+</html>
